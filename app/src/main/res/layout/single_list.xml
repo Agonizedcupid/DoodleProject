@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="7dp"
+    >
+
+    <TextView
+        android:id="@+id/subCategoryName"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:text="Sub category Name"
+        android:padding="7dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        />
+
+    <ImageView
+        android:id="@+id/selectSubCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add_icon"
+        android:layout_marginEnd="7dp"
+        />
+
+</LinearLayout>
